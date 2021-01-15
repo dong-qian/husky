@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Linkes - Next-Gen Bookmark Extension",
   "description": "This is an extension to help user quickly open their faviour bookmarks.",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "icons": {
     "128": "icon.png"
   },
