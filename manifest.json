@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Linkes - Next-Gen Bookmark Extension",
+  "description": "This is an extension to help user quickly open their faviour bookmarks.",
+  "version": "1.0.0",
+  "icons": {
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "32": "icon.png"
+    },
+    "default_title": "Poppins Bookmark",
+    "default_popup": "index.html/#popup"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": ["index.html", "static/js/*.chunk.js"],
+  "commands": {
+    "toggle-search-modal": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+0",
+        "mac": "Command+Shift+0"
+      },
+      "description": "Toggle Search Modal"
+    }
+  },
+
+  "permissions": ["bookmarks", "storage"]
+}
