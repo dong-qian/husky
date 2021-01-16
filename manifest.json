@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Linkes - Next-Gen Bookmark Extension",
-  "description": "This is an extension to help user quickly open their faviour bookmarks.",
+  "name": "Husky - Next-Gen boookmarks",
+  "description": "Easiest way to open you faviour bookmarks in chrome",
   "version": "0.0.1",
   "icons": {
     "128": "icon.png"
@@ -10,7 +10,7 @@
     "default_icon": {
       "32": "icon.png"
     },
-    "default_title": "Linkes bookmark",
+    "default_title": "husky bookmarks",
     "default_popup": "index.html#popup"
   },
   "background": {
