@@ -7,11 +7,11 @@ function Bookmark({ bookmark, isHighlighted, ...props }) {
       href={bookmark.url}
       target="blank"
       className={clsx(
-        'flex items-center rounded-md p-3 py-4 mb-2 cursor-pointer transition-all',
-        'bg-gray-100 hover:bg-green-500 hover:text-white',
-        'dark:bg-primary-light dark:text-gray-300 dark:hover:bg-secondary-dark',
-        { 'ring ring-green-500': isHighlighted },
-        { 'ring dark:ring-secondary-dark': isHighlighted }
+        'flex items-center rounded-md p-3 py-4 mb-2 cursor-pointer hover:ring transition-all',
+        'bg-gray-100 hover:ring-green-500',
+        'dark:bg-primary-light dark:hover:ring-secondary-dark dark:text-gray-300',
+        { 'bg-green-500 text-white': isHighlighted },
+        { 'dark:bg-secondary-dark dark:text-white': isHighlighted }
       )}
       {...props}
     >

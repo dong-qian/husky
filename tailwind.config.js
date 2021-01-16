@@ -25,5 +25,11 @@ module.exports = {
         max: '99999'
       }
     }
+  },
+  variants: {
+    extend: {
+      ringWidth: ['hover', 'active'],
+      ringColor: ['hover', 'active']
+    }
   }
 };

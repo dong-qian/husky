@@ -33,6 +33,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+
+# extension assemble
+
 extension
 extension.zip
 
+# tailwindcss output
+/src/tailwind.output.css
