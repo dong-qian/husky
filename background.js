@@ -7,6 +7,7 @@
 
 chrome.commands.onCommand.addListener(function (command) {
   chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+    console.log("called")
     if (command === 'toggle-search-modal') {
       chrome.tabs.sendMessage(tabs[0].id, { action: 'toggle-search-modal' });
     }

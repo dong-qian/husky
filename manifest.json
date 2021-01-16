@@ -10,8 +10,8 @@
     "default_icon": {
       "32": "icon.png"
     },
-    "default_title": "Poppins Bookmark",
-    "default_popup": "index.html/#popup"
+    "default_title": "Linkes bookmark",
+    "default_popup": "index.html#popup"
   },
   "background": {
     "persistent": false,
@@ -28,9 +28,11 @@
     "toggle-search-modal": {
       "suggested_key": {
         "default": "Ctrl+Shift+0",
+        "windows": "Ctrl+Shift+0",
         "mac": "Command+Shift+0"
       },
-      "description": "Toggle Search Modal"
+      "description": "Toggle Search Modal",
+      "global": true
     }
   },
 
