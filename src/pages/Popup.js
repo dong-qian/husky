@@ -96,7 +96,7 @@ const Popup = () => {
         )}
       >
         <div>Toggle Search</div>
-        <div className="mt-2 font-semibold">Ctrl/Command + 0</div>
+        <div className="mt-2 font-semibold">Ctrl/Command + Shift + 0</div>
       </div>
     </div>
   );

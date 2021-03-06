@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Husky - Next-Gen boookmarks",
-  "description": "Easiest way to open you faviour bookmarks in chrome",
-  "version": "0.0.1",
+  "name": "Husky - Next-Gen boookmark extension",
+  "description": "The easiest way to open your favourite bookmarks in chrome browser",
+  "version": "1.0.1",
   "icons": {
     "128": "icon.png"
   },
