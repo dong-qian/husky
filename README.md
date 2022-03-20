@@ -4,6 +4,8 @@
 
 This is an extension to help user quickly open thier faviour bookmarks.
 
+<a href="https://www.producthunt.com/posts/husky-3?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-husky&#0045;3" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=287250&theme=light" alt="Husky - A&#0032;new&#0032;way&#0032;to&#0032;help&#0032;you&#0032;access&#0032;chrome&#0032;bookmarks | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 ## Running The Extension
 
 1. Run `npm install` in the folder to install dependencies
